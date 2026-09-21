@@ -1,0 +1,100 @@
+{
+  "P1": {
+    "capability_version": "1",
+    "local_vocabulary": {
+      "age": [
+        "age",
+        "decade",
+        "band",
+        "ALL"
+      ],
+      "geo": [
+        "city",
+        "state",
+        "country",
+        "ALL"
+      ]
+    },
+    "min_levels": {},
+    "party_id": "P1",
+    "supported_measures": [
+      "revenue",
+      "quantity"
+    ]
+  },
+  "P2": {
+    "capability_version": "1",
+    "local_vocabulary": {
+      "age": [
+        "exact_age",
+        "decade",
+        "band",
+        "ALL"
+      ],
+      "geo": [
+        "municipality",
+        "province",
+        "country",
+        "ALL"
+      ]
+    },
+    "min_levels": {
+      "age": 1
+    },
+    "party_id": "P2",
+    "supported_measures": [
+      "revenue",
+      "quantity"
+    ]
+  },
+  "P3": {
+    "capability_version": "1",
+    "local_vocabulary": {
+      "age": [
+        "age",
+        "ten_year_band",
+        "broad_band",
+        "ALL"
+      ],
+      "geo": [
+        "locality",
+        "region",
+        "country",
+        "ALL"
+      ]
+    },
+    "min_levels": {
+      "geo": 1
+    },
+    "party_id": "P3",
+    "supported_measures": [
+      "revenue",
+      "quantity"
+    ]
+  },
+  "P4": {
+    "capability_version": "1",
+    "local_vocabulary": {
+      "age": [
+        "age",
+        "decade",
+        "segment",
+        "ALL"
+      ],
+      "geo": [
+        "town",
+        "administrative_region",
+        "country",
+        "ALL"
+      ]
+    },
+    "min_levels": {
+      "time": 1
+    },
+    "party_id": "P4",
+    "supported_measures": [
+      "revenue",
+      "quantity"
+    ]
+  }
+}

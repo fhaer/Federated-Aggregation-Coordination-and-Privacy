@@ -1,0 +1,5 @@
+| mode                        |   success_rate |   mean_candidates |   mean_probe_messages |   mean_unsupported |   mean_info_loss |   mean_capability_filtered |   mean_events |
+|:----------------------------|---------------:|------------------:|----------------------:|-------------------:|-----------------:|---------------------------:|--------------:|
+| current_capability_workload |              1 |           3.55556 |               14.2222 |                  0 |         0.447391 |                        4.5 |       31.7778 |
+| current_site_agent_state    |              1 |           2       |                8      |                  0 |         0.666667 |                       10   |       24      |
+| stored_snapshot             |              1 |           5       |               20      |                  3 |         0.666667 |                        7   |       34      |

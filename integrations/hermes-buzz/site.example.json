@@ -1,0 +1,22 @@
+{
+  "party_id": "P1",
+  "db_path": "../../results/db_seed_11/P1.sqlite",
+  "local_min_k": 10,
+  "max_releases_per_query": 1,
+  "state_path": "../../.runtime/P1-state.json",
+  "capability": {
+    "min_levels": {
+      "geo": 0,
+      "age": 0
+    },
+    "supported_measures": [
+      "revenue",
+      "quantity"
+    ],
+    "local_vocabulary": {
+      "geo": ["city", "state", "country", "ALL"],
+      "age": ["age", "decade", "age group", "ALL"]
+    },
+    "capability_version": "1"
+  }
+}

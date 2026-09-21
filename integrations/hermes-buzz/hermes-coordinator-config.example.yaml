@@ -1,0 +1,36 @@
+# Coordinator profile settings. Replace all REPLACE_* values.
+# Keep secrets in the profile .env file.
+
+display:
+  platforms:
+    buzz:
+      interim_assistant_messages: false
+      tool_progress: off
+
+terminal:
+  backend: local
+  cwd: /ABSOLUTE/PATH/TO/federated-kpi-aggregation
+  env_passthrough:
+    - FEDERATED_KPI_ROLE
+    - FEDERATED_KPI_COORDINATOR_STATE
+
+gateway:
+  platforms:
+    buzz:
+      enabled: true
+      extra:
+        relay_url: https://REPLACE_RELAY
+        channels:
+          - REPLACE_PROTOCOL_CHANNEL_UUID
+        home_channel: REPLACE_PROTOCOL_CHANNEL_UUID
+        cli_path: /ABSOLUTE/PATH/TO/buzz
+        allowed_users:
+          - REPLACE_SITE_1_NPUB_OR_HEX
+          - REPLACE_SITE_2_NPUB_OR_HEX
+          - REPLACE_SITE_3_NPUB_OR_HEX
+          - REPLACE_SITE_4_NPUB_OR_HEX
+          # Add the authorized human operator here only if that person should
+          # be able to trigger this coordinator through Buzz.
+        require_mention: false
+        allow_all_users: false
+        poll_interval: 4
