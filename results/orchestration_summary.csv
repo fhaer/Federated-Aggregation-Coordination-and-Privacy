@@ -1,0 +1,4 @@
+mode,success_rate,mean_candidates,mean_probe_messages,mean_unsupported,mean_info_loss,mean_capability_filtered,mean_events
+current_capability_workload,1.0,3.5555555555555554,14.222222222222221,0.0,0.4473905723905724,4.5,31.77777777777778
+current_site_agent_state,1.0,2.0,8.0,0.0,0.6666666666666666,10.0,24.0
+stored_snapshot,1.0,5.0,20.0,3.0,0.6666666666666666,7.0,34.0

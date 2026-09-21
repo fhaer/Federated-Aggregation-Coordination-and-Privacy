@@ -1,0 +1,9 @@
+Method,k,Coverage,SUM error,Roll-up loss
+Suppression,3,0.985,0.015,0.000
+Suppression,5,0.962,0.038,0.000
+Suppression,10,0.900,0.099,0.000
+Suppression,20,0.783,0.216,0.000
+Coordinated roll-up,3,1.000,0.000,0.346
+Coordinated roll-up,5,1.000,0.000,0.384
+Coordinated roll-up,10,1.000,0.000,0.395
+Coordinated roll-up,20,1.000,0.000,0.418

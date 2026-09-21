@@ -1,0 +1,9 @@
+{
+  "query_id": "live-demo-1",
+  "group_levels": {
+    "geo": 0,
+    "age": 0
+  },
+  "measure": "revenue",
+  "year_filter": 2025
+}
